@@ -6,7 +6,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -20,7 +20,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-02)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -34,7 +34,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-03)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -48,7 +48,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-04)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -62,7 +62,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-05)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -76,7 +76,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-06)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -90,7 +90,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-07)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -104,7 +104,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-08)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -118,7 +118,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-09)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -132,7 +132,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-10)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -146,7 +146,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-11)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -160,7 +160,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-12)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -174,7 +174,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-13)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -188,7 +188,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-14)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -202,7 +202,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-15)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -216,7 +216,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-16)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -230,7 +230,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-17)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -244,7 +244,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-18)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -258,7 +258,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-19)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
@@ -272,7 +272,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-20)
 
-**Reports by existing tools**:
+**Reported by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
