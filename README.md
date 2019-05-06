@@ -6,7 +6,7 @@
 
 **Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01)
 
-#### Reports by existing tools:
+**Reports by existing tools**:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
