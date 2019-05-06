@@ -276,7 +276,7 @@ function invest() notOnPause public payable {
 
 ### **Vulnerability_Instance_1:      //out6227.sol**
 
-function buy(bytes8 referralCode) internal {
+` buy(bytes8 referralCode) internal {
 
 ​        require(msg.value>=minEthValue);
 
@@ -331,6 +331,10 @@ function buy(bytes8 referralCode) internal {
 ​        emit Contribution(msg.sender, amount);
 
 ​    }
+
+`
+
+
 
 ###  Vulnerability_Instance_2:**
 
