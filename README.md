@@ -25,13 +25,13 @@
 
 ## Abuse of Tx-origin AVS
 
-| AVS Index | Reported By | Deployment Address | Balance | Exploitation Code                                            |
-| --------- | ----------- | ------------------ | ------- | ------------------------------------------------------------ |
-| 1         |             |                    |         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1） |
-| 2         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-2)) |
-| 3         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-3)) |
-| 4         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-4)) |
-| 5         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-5)) |
+| AVS Index | Reported By | Deployment Address | Transaction Counts | Exploitation Code                                            |
+| --------- | ----------- | ------------------ | ------------------ | ------------------------------------------------------------ |
+| 1         |             |                    |                    | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
+| 2         |             |                    |                    |                                                              |
+| 3         |             |                    |                    |                                                              |
+| 4         |             |                    |                    |                                                              |
+| 5         |             |                    |                    |                                                              |
 
 ## Unchecked Low-level-call AVS
 
