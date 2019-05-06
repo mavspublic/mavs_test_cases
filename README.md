@@ -2,27 +2,21 @@
 
 ## **MAVS_1:**   
 
-#### Transaction Counts
+#### Deployment Address:
 
 
 
-#### Balance:
+#### Transaction Counts:
 
 
 
-
+#### Exploitation Code: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01)
 
 #### Reports by existing tools:
 
 | Slither          | Oyente | Smartcheck | MAVS |
 | ---------------- | ------ | ---------- | ---- |
 | $$ \checkmark $$ | **X**  |            |      |
-
- #### Deployment Address:
-
-
-
-#### Exploitation Code: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01)
 
 ## **MAVS_2:**
 
