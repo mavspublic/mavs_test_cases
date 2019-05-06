@@ -23,3 +23,54 @@
 | 19        |             |                    |         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-19) |
 | 20        |             |                    |         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-20) |
 
+## Abuse of Tx-origin AVS
+
+| AVS Index | Reported By | Deployment Address | Balance | Exploitation Code                                            |
+| --------- | ----------- | ------------------ | ------- | ------------------------------------------------------------ |
+| 1         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-1)) |
+| 2         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-2)) |
+| 3         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-3)) |
+| 4         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-4)) |
+| 5         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse of Tx-origin/Tx-AVS-5)) |
+
+## Unchecked Low-level-call AVS
+
+| AVS Index | Reported By | Deployment Address | Balance | Exploitation Code                                            |
+| --------- | ----------- | ------------------ | ------- | ------------------------------------------------------------ |
+| 1         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked Low-level-call/UncheckedLLC-AVS-1)) |
+| 2         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked Low-level-call/UncheckedLLC-AVS-2)) |
+| 3         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-3](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked Low-level-call/UncheckedLLC-AVS-3)) |
+| 4         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-4](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked Low-level-call/UncheckedLLC-AVS-4)) |
+
+## Time Manipulation AVS
+
+| AVS Index | Reported By | Deployment Address | Balance | Exploitation Code                                            |
+| --------- | ----------- | ------------------ | ------- | ------------------------------------------------------------ |
+| 1         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Time Manipulation/TimeMani-AVS-1)) |
+| 2         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Time Manipulation/TimeMani-AVS-2)) |
+| 3         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-3](https://github.com/mavspublic/Exploit_Code/tree/master/Time Manipulation/TimeMani-AVS-3)) |
+| 4         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-4](https://github.com/mavspublic/Exploit_Code/tree/master/Time Manipulation/TimeMani-AVS-4)) |
+| 5         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-5](https://github.com/mavspublic/Exploit_Code/tree/master/Time Manipulation/TimeMani-AVS-5)) |
+
+## Unexpected Revert AVS
+
+| AVS Index | Reported By | Deployment Address | Balance | Exploitation Code                                            |
+| --------- | ----------- | ------------------ | ------- | ------------------------------------------------------------ |
+| 1         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-1)) |
+| 2         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-2)) |
+| 3         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-3)) |
+| 4         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-4)) |
+| 5         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-5)) |
+| 6         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-6)) |
+| 7         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-7)) |
+| 8         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected Revert/UnexpectedRevert-AVS-8)) |
+
+## Self-destruct Abusing AVS
+
+| AVS Index | Reported By | Deployment Address | Balance | Exploitation Code                                            |
+| --------- | ----------- | ------------------ | ------- | ------------------------------------------------------------ |
+| 1         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct Abusing/SelfDestruct-AVS-1)) |
+| 2         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct Abusing/SelfDestruct-AVS-2)) |
+| 3         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct Abusing/SelfDestruct-AVS-3)) |
+| 4         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct Abusing/SelfDestruct-AVS-4)) |
+| 5         |             |                    |         | [here]([https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct Abusing/SelfDestruct-AVS-5)) |
