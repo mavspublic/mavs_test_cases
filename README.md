@@ -1,14 +1,10 @@
 ## Reentrancy_MAVS_1:   
 
-### Deployment Address:
+**Deployment Address **:
 
+**Transaction Counts**:
 
-
-#### Transaction Counts:
-
-
-
-#### Exploitation Code: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01)
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01)
 
 #### Reports by existing tools:
 
