@@ -1,4 +1,4 @@
-## Reentrancy_MAVS_1:   
+## Reentrancy_MAVS_01:   
 
 **Deployment Address**:
 
@@ -12,1126 +12,311 @@
 | ---------------- | ------ | ---------- | ---- |
 | $$ \checkmark $$ | **X**  |            |      |
 
-## **MAVS_2:**
+## Reentrancy_MAVS_02:   
 
-### **Vulnerability_Instance_1:**
+**Deployment Address**:
 
-​    //out7852.sol
+**Transaction Counts**:
 
-   function buyFirstTokens(
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-02)
 
-​        IMultiToken _mtkn,
+**Reports by existing tools**:
 
-​        bytes _callDatas,
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        uint[] _starts // including 0 and LENGTH values
+## Reentrancy_MAVS_03:   
 
-​                                              )
+**Deployment Address**:
 
-​        Public  payable
+**Transaction Counts**:
 
-​    {
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-03)
 
-​        change(_callDatas, _starts);
+**Reports by existing tools**:
 
- 
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        uint tokensCount = _mtkn.tokensCount();
+## Reentrancy_MAVS_04:   
 
-​        uint256[] memory amounts = new uint256[](tokensCount);
+**Deployment Address**:
 
-​        for (uint i = 0; i < tokensCount; i++) {
+**Transaction Counts**:
 
-​            ERC20 token = _mtkn.tokens(i);
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-04)
 
-​            amounts[i] = token.balanceOf(this);
+**Reports by existing tools**:
 
-​            if (token.allowance(this, _mtkn) == 0) {
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​                token.asmApprove(_mtkn, uint256(-1));
+## Reentrancy_MAVS_05:   
 
-​            }
+**Deployment Address**:
 
-​        }
+**Transaction Counts**:
 
- 
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-05)
 
-​        _mtkn.bundleFirstTokens(msg.sender, msg.value.mul(1000), amounts);
+**Reports by existing tools**:
 
-​        if (address(this).balance > 0) {
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​            msg.sender.transfer(address(this).balance);
+## Reentrancy_MAVS_06:   
 
-​        }
+**Deployment Address**:
 
-​        for (i = _mtkn.tokensCount(); i > 0; i--) {
+**Transaction Counts**:
 
-​            token = _mtkn.tokens(i - 1);
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-06)
 
-​            token.asmTransfer(msg.sender, token.balanceOf(this));
+**Reports by existing tools**:
 
-​        }
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​    }
+## Reentrancy_MAVS_07:   
 
- 
+**Deployment Address**:
 
- 
+**Transaction Counts**:
 
-## **MAVS_3:**
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-07)
 
-### **Vulnerability_Instance_1:      //out5455.sol**
+**Reports by existing tools**:
 
- function sendEthProportion(address target, bytes data, uint256 mul, uint256 div) external {
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        uint256 value = address(this).balance.mul(mul).div(div);
+## Reentrancy_MAVS_08:   
 
-​        // solium-disable-next-line security/no-call-value
+**Deployment Address**:
 
-​        require(target.call.value(value)(data));            ///////////////////////////////////////
+**Transaction Counts**:
 
-​    }
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-08)
 
-### **Vulnerability_Instance_2:             //7852.sol**
+**Reports by existing tools**:
 
-function sendEthProportion(address _target, bytes _data, uint256 _mul, uint256 _div) external {
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        uint256 value = address(this).balance.mul(_mul).div(_div);
+## Reentrancy_MAVS_09:   
 
-​        // solium-disable-next-line security/no-call-value
+**Deployment Address**:
 
-​        require(_target.call.value(value)(_data));          ////////////////////////////////////////
+**Transaction Counts**:
 
-}
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-09)
 
- 
+**Reports by existing tools**:
 
- 
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-## **MAVS_4:**
+## Reentrancy_MAVS_10:   
 
-### **Vulnerability_Instance_1:            //out5369.sol(****有待提高****)**
+**Deployment Address**:
 
-function invest() notOnPause public payable {
+**Transaction Counts**:
 
-​        admin.transfer(msg.value * 5 / 100);
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-10)
 
-​        marketing.transfer(msg.value / 10);
+**Reports by existing tools**:
 
-  if (x.d(msg.sender) > 0) {
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​            withdraw();
+## Reentrancy_MAVS_11:   
 
-​        }
+**Deployment Address**:
 
-  x.updateInfo(msg.sender, msg.value);       
+**Transaction Counts**:
 
-​        if (msg.data.length == 20) {
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-11)
 
-​            toReferrer(msg.value);
+**Reports by existing tools**:
 
-​        }
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        emit LogInvestment(msg.sender, msg.value);
+## Reentrancy_MAVS_12:   
 
-​    }
+**Deployment Address**:
 
-### **V****ulnerability_Instance_2:             //out4793.sol(****有待提高****)**
+**Transaction Counts**:
 
-function invest() notOnPause public payable {
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-12)
 
- 
+**Reports by existing tools**:
 
-​        admin.transfer(msg.value * 8 / 100);
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        marketing.transfer(msg.value * 5 / 100);
+## Reentrancy_MAVS_13:   
 
- 
+**Deployment Address**:
 
-​        if (x.d(msg.sender) > 0) {
+**Transaction Counts**:
 
-​            withdraw();
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-13)
 
-​        }
+**Reports by existing tools**:
 
- 
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        x.updateInfo(msg.sender, msg.value);    //  这个x不好被操控
+## Reentrancy_MAVS_14:   
 
- 
+**Deployment Address**:
 
-​        if (msg.data.length == 20) {
+**Transaction Counts**:
 
-​            toReferrer(msg.value);
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-14)
 
-​        }
+**Reports by existing tools**:
 
- 
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        emit LogInvestment(msg.sender, msg.value);
+## Reentrancy_MAVS_15:   
 
-​    }
+**Deployment Address**:
 
-##  MAVS_5:**
+**Transaction Counts**:
 
-### **Vulnerability_Instance_1:      //out6227.sol**
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-15)
 
-```javascript
- buy(bytes8 referralCode) internal {
+**Reports by existing tools**:
 
-​        require(msg.value>=minEthValue);
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        require(now < saleEnd4); // main sale postponed
+## Reentrancy_MAVS_16:   
 
- 
+**Deployment Address**:
 
-​        // distribution for referral
+**Transaction Counts**:
 
-​        uint256 remainEth = msg.value;
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-16)
 
-​        if (referral[referralCode] != msg.sender && renownedPlayers[referral[referralCode]].isRenowned)
+**Reports by existing tools**:
 
-​        {
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​            uint256 referEth = msg.value.mul(10).div(100);
+## Reentrancy_MAVS_17:   
 
-​            referral[referralCode].transfer(referEth);
+**Deployment Address**:
 
-​            remainEth = remainEth.sub(referEth);
+**Transaction Counts**:
 
-​        }
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-17)
 
- 
+**Reports by existing tools**:
 
-​        if (!renownedPlayers[msg.sender].isRenowned)
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        {
+## Reentrancy_MAVS_18:   
 
-​            generateRenown();
+**Deployment Address**:
 
-​        }
+**Transaction Counts**:
 
-​        
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-18)
 
-​        uint256 amount = manager.getYumerium(msg.value, msg.sender);        //////////////////////////
+**Reports by existing tools**:
 
-​        uint256 total = totalSaled.add(amount);
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        owner.transfer(remainEth);
+## Reentrancy_MAVS_19:   
 
-​        
+**Deployment Address**:
 
-​        require(total<=maxSale);
+**Transaction Counts**:
 
-​        
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-19)
 
-​        totalSaled = total;
+**Reports by existing tools**:
 
-​        
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        emit Contribution(msg.sender, amount);
+## Reentrancy_MAVS_20:   
 
-​    }
+**Deployment Address**:
 
+**Transaction Counts**:
 
-```
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-20)
 
-vulnerable code:
+**Reports by existing tools**:
 
-` emit Contriution` this code has vulnerability .
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-**  can leverage this vul to attack this contract
+## Reentrancy_MAVS_21:   
 
-###  Vulnerability_Instance_2:**
+**Deployment Address**:
 
-​    function buy() internal {
+**Transaction Counts**:
 
-​        require(msg.value>=minEthValue);
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-21)
 
-​        require(now < saleEnd4); // main sale postponed
+**Reports by existing tools**:
 
-​        
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        uint256 amount = manager.getYumerium.value(msg.value)(msg.sender);   
+## Reentrancy_MAVS_22:   
 
-​        uint256 total = totalSaled.add(amount);
+**Deployment Address**:
 
-​        
+**Transaction Counts**:
 
-​        require(total<=maxSale);
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-22)
 
-​        
+**Reports by existing tools**:
 
-​        totalSaled = total;
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​        if (currentDay > 0) {
+## Reentrancy_MAVS_23:   
 
-​            eachDaySold[currentDay] = eachDaySold[currentDay].add(msg.value);
+**Deployment Address**:
 
-​            uint256 tickets = msg.value.div(10 ** 17);
+**Transaction Counts**:
 
-​            if (ticketsEarned[currentDay][msg.sender] == 0) {
+**Exploitation Code**: [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-23)
 
-​                eventSaleParticipants[currentDay].push(msg.sender);
+**Reports by existing tools**:
 
-​            }
+| Slither          | Oyente | Smartcheck | MAVS |
+| ---------------- | ------ | ---------- | ---- |
+| $$ \checkmark $$ | **X**  |            |      |
 
-​            ticketsEarned[currentDay][msg.sender] = ticketsEarned[currentDay][msg.sender].add(tickets);
-
-​            totalTickets[currentDay] = totalTickets[currentDay].add(tickets);
-
-​            if (now >= saleEnd3)
-
-​            {
-
-​                currentDay = 0;
-
-​            }
-
-​            else if (now >= saleEnd2)
-
-​            {
-
-​                currentDay = 3;
-
-​            }
-
-​            else if (now >= saleEnd1)
-
-​            {
-
-​                currentDay = 2;
-
-​            }
-
-​        }
-
-​        
-
-​        emit Contribution(msg.sender, amount);
-
-​    }
-
-##  MAVS_6:
-
-### **Vulnerability_Instance_1:   out4115.sol**
-
- function convertSafe(
-
-​        TokenConverter converter,
-
-​        Token fromToken,
-
-​        Token toToken,
-
-​        uint256 amount
-
-​    ) internal returns (uint256 bought) {
-
-​        if (fromToken != ETH_ADDRESS) require(fromToken.approve(converter, amount));
-
-​        uint256 prevBalance = toToken != ETH_ADDRESS ? toToken.balanceOf(this) : address(this).balance;
-
-​        uint256 sendEth = fromToken == ETH_ADDRESS ? amount : 0;
-
-​        uint256 boughtAmount = converter.convert.value(sendEth)(fromToken, toToken, amount, 1);//////////////////////////
-
-​        require(
-
-​            boughtAmount == (toToken != ETH_ADDRESS ? toToken.balanceOf(this) : address(this).balance) - prevBalance,
-
-​            "Bought amound does does not match"
-
-​        );
-
-​        if (fromToken != ETH_ADDRESS) require(fromToken.approve(converter, 0));
-
-​        return boughtAmount;
-
-​    }
-
- 
-
-## **MAVS_7:**
-
-### **Vulnerability_Instance_1:    out5508.sol**
-
-​        function lend(address to, ERC20 token, uint256 amount, address target, bytes data) public payable {
-
-​        uint256 prevBalance = token.balanceOf(this);
-
-​        token.asmTransfer(to, amount);
-
-​        _inLendingMode += 1;
-
-​        require(caller().makeCall.value(msg.value)(target, data), "lend: arbitrary call failed");
-
-​        _inLendingMode -= 1;
-
-​        require(token.balanceOf(this) >= prevBalance, "lend: lended token must be refilled"); //////////////////////
-
-}
-
- 
-
- 
-
-## **MAVS_8:**
-
-### **Vulnerability_Instance_1:    out7590.sol**
-
-​     function withdraw (address account, address tokenAddr, uint256 index_from, uint256 index_to) external returns (bool) {
-
-​        require(account != address(0x0));
-
- 
-
-​        uint256 release_amount = 0;
-
-​        for (uint256 i = index_from; i < lockedBalances[account][tokenAddr].length && i < index_to + 1; i++) {
-
-​            if (lockedBalances[account][tokenAddr][i].balance > 0 &&
-
-​                lockedBalances[account][tokenAddr][i].releaseTime <= block.timestamp) {
-
- 
-
-​                release_amount = release_amount.add(lockedBalances[account][tokenAddr][i].balance);
-
-​                lockedBalances[account][tokenAddr][i].balance = 0;
-
-​            }
-
-​        }
-
- 
-
-​        require(release_amount > 0);
-
- 
-
-​        if (tokenAddr == 0x0) {
-
-​            if (!account.send(release_amount)) {
-
-​                revert();
-
-​            }
-
-​            emit Withdraw(account, tokenAddr, release_amount);
-
-​            return true;
-
-​        } else {
-
-​            if (!ERC20Interface(tokenAddr).transfer(account, release_amount)) { //////////////////////
-
-​                revert();
-
-​            }
-
-​            emit Withdraw(account, tokenAddr, release_amount);
-
-​            return true;
-
-​        }
-
-​    }
-
- 
-
-## **MAVS_9:**
-
-### **Vulnerability_Instance_1:    10764.sol**
-
-function buyInternal(
-
-​        ERC20 token,
-
-​        address _exchange,
-
-​        uint256 _value,
-
-​        bytes _data
-
-​    ) 
-
-​        internal
-
-​    {
-
-​        require(
-
-​            // 0xa9059cbb - transfer(address,uint256)
-
-​            !(_data[0] == 0xa9 && _data[1] == 0x05 && _data[2] == 0x9c && _data[3] == 0xbb) &&
-
-​            // 0x095ea7b3 - approve(address,uint256)
-
-​            !(_data[0] == 0x09 && _data[1] == 0x5e && _data[2] == 0xa7 && _data[3] == 0xb3) &&
-
-​            // 0x23b872dd - transferFrom(address,address,uint256)
-
-​            !(_data[0] == 0x23 && _data[1] == 0xb8 && _data[2] == 0x72 && _data[3] == 0xdd),
-
-​            "buyInternal: Do not try to call transfer, approve or transferFrom"
-
-​        );
-
-​        uint256 tokenBalance = token.balanceOf(this);
-
-​        require(_exchange.call.value(_value)(_data));           //////////////////////////////////////////////////////
-
-​        balances[msg.sender] = balances[msg.sender].sub(_value);
-
-​        tokenBalances[msg.sender][token] = tokenBalances[msg.sender][token]
-
-​            .add(token.balanceOf(this).sub(tokenBalance));
-
-​    }
-
- 
-
- 
-
-## **MAVS_10:**
-
-### **Vulnerability_Instance_1:      out11664.sol**
-
-function doSupplierTrade(
-
-​        ERC20 src,
-
-​        uint amount,
-
-​        ERC20 dest,
-
-​        address destAddress,
-
-​        uint expectedDestAmount,
-
-​        SupplierInterface supplier,
-
-​        uint conversionRate,
-
-​        bool validate
-
-​    )
-
-​        internal
-
-​        returns(bool)
-
-​    {
-
-​        uint callValue = 0;
-
-​        
-
-​        if (src == ETH_TOKEN_ADDRESS) {
-
-​            callValue = amount;
-
-​        } else {
-
-​            // take src tokens to this contract
-
-​            require(src.transferFrom(msg.sender, this, amount));
-
-​        }
-
- 
-
-​        // supplier sends tokens/eth to network. network sends it to destination
-
- 
-
-​        require(supplier.trade.value(callValue)(src, amount, dest, this, conversionRate, validate));
-
-​        emit SupplierTrade(callValue, src, amount, dest, this, conversionRate, validate);
-
- 
-
-​        if (dest == ETH_TOKEN_ADDRESS) {
-
-​            destAddress.transfer(expectedDestAmount);
-
-​        } else {
-
-​            require(dest.transfer(destAddress, expectedDestAmount));        ///////////////////////////////////////////////////////
-
-​        }
-
- 
-
-​        return true;
-
-​    }
-
- 
-
- 
-
-## **MAVS_11:**
-
-### **Vulnerability_Instance_1:      out12116.sol**
-
-​        function buy(uint256 UniqueID) external payable {
-
-​        address _to = msg.sender;
-
-​        require(TokenIdtosetprice[UniqueID] == msg.value);
-
-​        TokenIdtoprice[UniqueID] = msg.value;
-
-​        uint _blooming = msg.value.div(20);
-
-​        uint _infrastructure = msg.value.div(20);
-
-​        uint _combined = _blooming.add(_infrastructure);
-
-​        uint _amount_for_seller = msg.value.sub(_combined);
-
-​        require(tokenOwner[UniqueID].call.gas(99999).value(_amount_for_seller)());          //////////////////////////////////////
-
-​        this.transferFrom(tokenOwner[UniqueID], _to, UniqueID);
-
-​        if(!INFRASTRUCTURE_POOL_ADDRESS.call.gas(99999).value(_infrastructure)()){
-
-​            revert("transfer to infrastructurePool failed");
-
-​                     }
-
-}
-
- 
-
- 
-
-## **MAVS_12:**
-
-### **Vulnerability_Instance_1:      out1238.sol**
-
-function purchaseFor(address pack, address[] memory users, uint16 packCount, address referrer) public payable {
-
-​        uint price = PackInterface(pack).calculatePrice(PackInterface(pack).basePrice(), packCount);
-
-​          for (uint i = 0; i < users.length; i++) {
-
-​            PackInterface(pack).purchaseFor.value(price)(users[i], packCount, referrer);        /////////////////////////////////////////////
-
-​        }
-
-​    }
-
- 
-
-## MAVS_12:**
-
-### **Vulnerability_Instance_1:      out13135.sol**
-
- function claimTokens(address _token, address _to) public onlyDonationAddress {  //modifier
-
-​        require(_to != address(0), "Wallet format error");
-
-​        if (_token == address(0)) {
-
-​            _to.transfer(address(this).balance);
-
-​            return;
-
-​        }
-
- 
-
-​        ERC20Basic token = ERC20Basic(_token);
-
-​        uint256 balance = token.balanceOf(this);
-
-​        require(token.transfer(_to, balance), "Token transfer unsuccessful");
-
-​    }
-
- 
-
-## **MAVS_13:**
-
-### **Vulnerability_Instance_1:      out13986.sol**
-
-function Initiate(address _swapadd, uint _amount) payable public{
-
-​        require(msg.value == _amount.mul(2));
-
-​        swap = TokenToTokenSwap_Interface(_swapadd);
-
-​        address token_address = factory.token();
-
-​        baseToken = Wrapped_Ether(token_address);
-
-​        baseToken.createToken.value(_amount.mul(2))();             
-
-​        baseToken.transfer(_swapadd,_amount.mul(2));
-
-​        swap.createSwap(_amount, msg.sender);
-
-​    }
-
- 
-
- 
-
-## **MAVS_14:**
-
-### **Vulnerability_Instance_1:      out151.sol**
-
- function processPayment(address _address) public {
-
-​        Participant participant = Participant(participants[_address]);
-
- 
-
-​        bool done = participant.processPayment.value(participant.daily())();        
-
-​        
-
-​        if (done) {
-
-​            participants[_address] = address(0);
-
-​            emit ParticipantRemoved(_address);
-
-​        }
-
-​    }
-
- 
-
- 
-
- 
-
-## **MAVS_15:**
-
-### **Vulnerability_Instance_1:      out8253.sol**
-
-function withdrawEther() public {
-
-​        if (roundFailedToStart == true) {
-
-​            require(msg.sender.send(deals[msg.sender].sumEther));
-
-​        }
-
-​        if (msg.sender == operator) {
-
-​            require(projectWallet.send(ethForMilestone+postDisputeEth));
-
-​            ethForMilestone = 0;
-
-​            postDisputeEth = 0;
-
-​        }
-
-​        if (msg.sender == juryOnlineWallet) {
-
-​            require(juryOnlineWallet.send(etherAllowance));
-
-​            require(jotter.call.value(jotAllowance)(abi.encodeWithSignature("swapMe()")));   
-
-​            etherAllowance = 0;
-
-​            jotAllowance = 0;
-
-​        }
-
-​        if (deals[msg.sender].verdictForInvestor == true) {
-
-​            require(msg.sender.send(deals[msg.sender].sumEther - deals[msg.sender].etherUsed));
-
-​        }
-
-​    }
-
- 
-
- 
-
-## **MAVS_15:**
-
-### **Vulnerability_Instance_1:      out10224.sol**
-
-​      function buybackTypeOne() public {
-
-​        uint256 allowanceToken = token.allowance(msg.sender,this);
-
-​        require(allowanceToken != uint256(0));
-
-​        require(isInvestTypeOne(msg.sender));
-
-​        require(isBuyBackOne());
-
-​        require(balancesICOToken[msg.sender] >= allowanceToken);
-
-​        
-
-​        uint256 forTransfer = allowanceToken.mul(buyPrice).div(1e18).mul(3); //calculation Eth 100% in 3 year 
-
-​        require(totalFundsAvailable >= forTransfer);
-
-​        msg.sender.transfer(forTransfer);
-
-​        totalFundsAvailable = totalFundsAvailable.sub(forTransfer);
-
-​        
-
-​        balancesICOToken[msg.sender] = balancesICOToken[msg.sender].sub(allowanceToken);
-
-​        token.transferFrom(msg.sender, this, allowanceToken;
-
-   }
-
- 
-
- 
-
-## **MAVS_16:**
-
-### **Vulnerability_Instance_1:    out940.sol**
-
-function internalContribution(address _contributor, uint256 _wei) internal {
-
-​        updateState();
-
-​        require(currentState == State.InCrowdsale);
-
- 
-
-​        ICUStrategy pricing = ICUStrategy(pricingStrategy);
-
-​        uint256 usdAmount = pricing.getUSDAmount(_wei);
-
-​        require(!isHardCapAchieved(usdAmount.sub(1)));
-
- 
-
-​        uint256 tokensAvailable = allocator.tokensAvailable();
-
-​        uint256 collectedWei = contributionForwarder.weiCollected();
-
-​        uint256 tierIndex = pricing.getTierIndex();
-
-​        uint256 tokens;
-
-​        uint256 tokensExcludingBonus;
-
-​        uint256 bonus;
-
- 
-
-​        (tokens, tokensExcludingBonus, bonus) = pricing.getTokens(
-
-​            _contributor, tokensAvailable, tokensSold, _wei, collectedWei
-
-​        );
-
- 
-
-​        require(tokens > 0);
-
-​        tokensSold = tokensSold.add(tokens);
-
-​        allocator.allocate(_contributor, tokensExcludingBonus);
-
- 
-
-​        if (isSoftCapAchieved(usdAmount)) {
-
-​            if (msg.value > 0) {
-
-​                contributionForwarder.forward.value(address(this).balance)();           
-
-​            }
-
-​        } else {
-
-​            // store contributor if it is not stored before
-
-​            if (contributorsWei[_contributor] == 0) {
-
-​                contributors.push(_contributor);
-
-​            }
-
-​            contributorsWei[_contributor] = contributorsWei[_contributor].add(msg.value);
-
-​        }
-
- 
-
-​        usdCollected = usdCollected.add(usdAmount);
-
- 
-
-​        if (availableBonusAmount > 0) {     
-
-​            if (availableBonusAmount >= bonus) {
-
-​                availableBonusAmount -= bonus;
-
-​            } else {
-
-​                bonus = availableBonusAmount;
-
-​                availableBonusAmount = 0;
-
-​            }
-
-​            contributorBonuses[_contributor] = contributorBonuses[_contributor].add(bonus);
-
-​        } else {
-
-​            bonus = 0;
-
-​        }
-
- 
-
-​        crowdsaleAgent.onContribution(pricing, tierIndex, tokensExcludingBonus, bonus);
-
-​        emit Contribution(_contributor, _wei, tokensExcludingBonus, bonus);
-
-​    }
-
- 
-
-}
-
- 
-
- 
-
- 
-
-## **MAVS_17:**
-
-### **Vulnerability_Instance_1:      out17359.sol**
-
-​        function burn(uint _maxSrcAmount, uint _maxDestAmount, uint _minConversionRate)
-
-​        external
-
-​        returns(uint)
-
-​    {
-
-​        // ETH to convert on Kyber, by default the amount of ETH on the contract
-
-​        // If _maxSrcAmount is defined, ethToConvert = min(balance on contract, _maxSrcAmount)
-
-​        uint ethToConvert = address(this).balance;
-
-​        if (_maxSrcAmount != 0 && _maxSrcAmount < ethToConvert) {
-
-​            ethToConvert = _maxSrcAmount;
-
-​        }
-
- 
-
-​        // Set maxDestAmount to MAX_UINT if not sent as parameter
-
-​        uint maxDestAmount = _maxDestAmount != 0 ? _maxDestAmount : 2**256 - 1;
-
- 
-
-​        // Set minConversionRate to 1 if not sent as parameter
-
-​        // A value of 1 will execute the trade according to market price in the time of the transaction confirmation
-
-​        uint minConversionRate = _minConversionRate != 0 ? _minConversionRate : 1;
-
- 
-
-​        // Convert the ETH to ERC20
-
-​        // erc20ToBurn is the amount of the ERC20 tokens converted by Kyber that will be burned
-
-​        uint erc20ToBurn = kyberContract.trade.value(ethToConvert)(
-
-​            // Source. From Kyber docs, this value denotes ETH
-
-​            ERC20(0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee),
-
-​            
-
-​            // Source amount
-
-​            ethToConvert,
-
- 
-
-​            // Destination. Downcast BurnableErc20 to ERC20
-
-​            ERC20(destErc20),
-
-​            
-
-​            // destAddress: this contract
-
-​            this,
-
-​            
-
-​            // maxDestAmount
-
-​            maxDestAmount,
-
-​            
-
-​            // minConversionRate 
-
-​            minConversionRate,
-
-​            
-
-​            // walletId
-
-​            0
-
-​        );
-
- 
-
-​        // Burn the converted ERC20 tokens
-
-​        destErc20.burn(erc20ToBurn);
-
- 
-
-​        return erc20ToBurn;
-
-}
-
- 
-
-## **MAVS_18:**
-
-### **Vulnerability_Instance_1:      out10923.sol**
-
-  function increaseApprovalAndCall(
-
-​    address _spender,
-
-​    uint _addedValue,
-
-​    bytes _data
-
-  )
-
-​    public
-
-​    payable
-
-​    returns (bool)
-
-  {
-
-​    require(_spender != address(this));
-
- 
-
-​    super.increaseApproval(_spender, _addedValue);
-
- 
-
-​    // solium-disable-next-line security/no-call-value
-
-​    require(_spender.call.value(msg.value)(_data));
-
- 
-
-​    return true;
-
-  }
-
- 
-
- 
-
- 
-
- 
-
-## **MAVS_19:**
-
-### **Vulnerability_Instance_1:    out13894.sol**
-
-function transferAndCall(
-
-​        address _to,
-
-​        uint256 _value,
-
-​        bytes _data
-
-​    )
-
-​    public
-
-​    payable
-
-​    whenNotPaused
-
-​    returns (bool)
-
-​    {
-
-​        require(_to != address(this));
-
- 
-
-​        super.transfer(_to, _value);
-
- 
-
-​        // solium-disable-next-line security/no-call-value
-
-​        require(_to.call.value(msg.value)(_data));
-
-​        return true;
-
-​    }
-
- 
-
-## **MAVS_20:**
-
-### **Vulnerability_Instance_1:    out1874.sol**
-
-​    function cleanBalance(address token) external returns(uint256 b) {
-
-​        if (uint(token)==0) {
-
-​            msg.sender.transfer(b = address(this).balance);
-
-​            emit Clean(token, msg.sender, b);
-
-​            return;
-
-​        }
-
-​        b = Yrc20(token).balanceOf(this);
-
-​        emit Clean(token, msg.sender, b);
-
-​        require(b>0, 'must have a balance');
-
-​        require(Yrc20(token).transfer(msg.sender,b), 'transfer failed');
-
-​    }
-
- 
-
- 
-
- 
