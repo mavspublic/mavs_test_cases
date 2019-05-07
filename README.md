@@ -1,4 +1,4 @@
-**Note that for preliminary exhibition, we only provide one concrete real example for every AVS. More instances with exploitation codes will be added in the future. **
+**Note that for preliminary exhibition, we only provide one concrete real example for every AVS. More instances with exploitation codes will be added in the future.**
 
 **To avoid the malicious usage of vulnerabilities and in consideration of warranty of community security, the whole vulnerability database will be published in the future, when we would have handled ethical and legal issues and done proper normalizations.**
 
