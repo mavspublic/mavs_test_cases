@@ -1,4 +1,4 @@
-**Note that for preliminary exhibition, we only provide one concrete real example for every AVS. More instances with exploitation codes will be added in the future.**
+Note that for preliminary exhibition, we only provide one concrete real example for every AVS. More instances with exploitation codes will be added in the future.**
 
 **To avoid the malicious usage of vulnerabilities and in consideration of warranty of community security, the whole vulnerability database will be published in the future, when we would have handled ethical and legal issues and done proper normalizations.**
 
@@ -9,16 +9,16 @@
 | 01        | Oyente, MAVS          | 0x99b001735036d937b4a11c17a9a44f86fbddf4d0 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-01) |
 | 02        | Oyente, MAVS          | 0x5f22fcb251ec7497201cc1f91ed82cbec1a67eab | 13        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-02) |
 | 03        | Oyente, MAVS          | 0xffa5d49dc77dec17aeaaa3580c7c1060f4709f0c | 8         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-03) |
-| 06        | Oyente, MAVS          | 0x90263ea5c57dc6603ca7202920735a6e31235bb9 | 77        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-06) |
+| 06        | Oyente, MAVS          | 0x90263ea5c57dc6603ca7202920735a6e31235bb9 | 134       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-06) |
 | 07        | Slither, MAVS         | 0x78a0cb3acb32bec25ee64408ded2087e0d27c230 | 0         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-07) |
-| 08        | MAVS                  | 0xb1998ca4a564d7d42d0468426bb5fc072bd16ee8 | 8         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-08) |
+| 08        | MAVS                  | 0xb1998ca4a564d7d42d0468426bb5fc072bd16ee8 | 9         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-08) |
 | 09        | MAVS                  | 0xba14b64a82cbf58622f2f38961352692384d4f62 | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-09) |
 | 10        | MAVS                  | 0xc1e3ec94dcd86c5cc17cfc116ae43d6d49439ee7 | 47        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-10) |
 | 11        | MAVS                  | 0x43c9b7b7ce699ac2c1d3aad3b5a78274a0f9c86d | 441       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-11) |
 | 12        | MAVS                  | 0xc218f45a42c41dc638d613927fe0dc240c7a4d5c | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-12) |
 | 13        | MAVS                  | 0x618e9fba148f6583825a67f26f6068dafc13982c | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-13) |
 | 14        | MAVS                  | 0x9482a18ed523b1a2f097b480d38852dfff83e0b9 | 5         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-14) |
-| 15        | Slither, Oyente, MAVS | 0x2628e13a3cbdc52ed96b4b8d6b1041d3ef3a409e | 7         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-15) |
+| 15        | Slither, Oyente, MAVS | 0x2628e13a3cbdc52ed96b4b8d6b1041d3ef3a409e | 24        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-15) |
 | 18        | Slither, MAVS         | 0x73e399056058166662a81b94b246244b743cdb4d | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-18) |
 | 20        | MAVS                  | 0x9e8252b6db9a604c2e89b01b1573b4fc26ed0110 | 10        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-20) |
 | 21        | MAVS                  | 0x8678b5fb41d87f4bec43b3142bce852366100336 | 3109      |                                                              |
@@ -28,8 +28,8 @@
 
 | AVS Index | Reported By | Deployment Address                         | Tx Counts | Exploitation Code                                            |
 | --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
-| 1         |             | 0x4f6d6fdaf267894fbeb57c1f4eb2fa2af93dd579 | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
-| 2         |             | 0xeb547ed1D8A3Ff1461aBAa7F0022FED4836E00A4 | 182       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2) |
+| 1         |             | 0x4f6d6fdaf267894fbeb57c1f4eb2fa2af93dd579 | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
+| 2         |             | 0xeb547ed1D8A3Ff1461aBAa7F0022FED4836E00A4 | 1244      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2) |
 | 3         |             | 0x4ed184d6a9e449ecb984cb1fea7ed40db59439fd | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3) |
 | 4         |             | 0x9ef74f01c70c80f008b51ae434e56ee79b6f4016 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
 | 5         |             | 0x6560fc67eaca384f1d936f7233a8efcbf8cda04f | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5) |
@@ -40,7 +40,7 @@
 | --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
 | 1         |             | 0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-1) |
 | 2         |             | 0x173ee6e41bf96c0a1c58bc4c31699916b10d7ef2 | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-2) |
-| 3         |             | 0xcc3a2773941eb0c79b66f86163a8afbed621194d | 373       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-3) |
+| 3         |             | 0xcc3a2773941eb0c79b66f86163a8afbed621194d | 413       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-3) |
 | 4         |             | 0xaa855d6ecf41dd5cf29dad369fb9400231979af8 | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-4) |
 
 ## Time Manipulation AVS
@@ -49,8 +49,8 @@
 | --------- | ------------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
 | 1         | Slither, MAVS | 0x2d1a6f5d5B1A116312887C68e0B39570CD5767D7 | 5         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-1) |
 | 2         | Slither, MAVS | 0xA100a80D8cF36397b3CA900E8c9F122de0243122 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-2) |
-| 3         | Slither, MAVS | 0xf0ff750e5b500316d85c82c52eb9ac62e2ed6485 | 38        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-3) |
-| 4         | Slither, MAVS | 0xc71a7ecd96fef6e34a5c296bee9533f1deb0e3c1 | 731       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-4) |
+| 3         | Slither, MAVS | 0xf0ff750e5b500316d85c82c52eb9ac62e2ed6485 | 75        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-3) |
+| 4         | Slither, MAVS | 0xc71a7ecd96fef6e34a5c296bee9533f1deb0e3c1 | 1396      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-4) |
 
 ## Unexpected Revert AVS
 
@@ -74,3 +74,4 @@
 | 3         | Slither, MAVS | 0x4ed184d6a9e449ecb984cb1fea7ed40db59439fd | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-3) |
 | 4         | Slither, MAVS | 0xd1b5cb3a6ea812c8c444e8d7d5692905df097c0e | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-4) |
 | 5         | Slither, MAVS | 0x6560fc67eaca384f1d936f7233a8efcbf8cda04f | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-5) |
+
