@@ -41,13 +41,12 @@
 
 ## Time Manipulation AVS
 
-| AVS Index | Reported By | Deployment Address                         | Tx Counts | Exploitation Code                                            |
-| --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
-| 1         |             | 0x2d1a6f5d5B1A116312887C68e0B39570CD5767D7 | 5         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-1) |
-| 2         |             | 0xA100a80D8cF36397b3CA900E8c9F122de0243122 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-2) |
-| 3         |             | 0xf0ff750e5b500316d85c82c52eb9ac62e2ed6485 | 38        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-3) |
-| 4         |             | 0xc71a7ecd96fef6e34a5c296bee9533f1deb0e3c1 | 731       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-4) |
-| 5         |             | 0x7b128f082103c8f0da18fdde4db4fc34dd3a0a1c | 589       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-5) |
+| AVS Index | Reported By   | Deployment Address                         | Tx Counts | Exploitation Code                                            |
+| --------- | ------------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
+| 1         | Slither, MAVS | 0x2d1a6f5d5B1A116312887C68e0B39570CD5767D7 | 5         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-1) |
+| 2         | Slither, MAVS | 0xA100a80D8cF36397b3CA900E8c9F122de0243122 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-2) |
+| 3         | Slither, MAVS | 0xf0ff750e5b500316d85c82c52eb9ac62e2ed6485 | 38        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-3) |
+| 4         | Slither, MAVS | 0xc71a7ecd96fef6e34a5c296bee9533f1deb0e3c1 | 731       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Time%20Manipulation/TimeMani-AVS-4) |
 
 ## Unexpected Revert AVS
 
@@ -64,10 +63,10 @@
 
 ## Self-destruct Abusing AVS
 
-| AVS Index | Reported By | Deployment Address                         | Tx Counts | Exploitation Code                                            |
-| --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
-| 1         |             | 0x380e0f015c0a830dc5d25e5f99570ad0be275350 | 8         | [Here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1) |
-| 2         |             | 0x19c630bb6d3e7c2cfe77e2a73627c9bee2db8ac5 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-2) |
-| 3         |             | 0x4ed184d6a9e449ecb984cb1fea7ed40db59439fd | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-3) |
-| 4         |             | 0xd1b5cb3a6ea812c8c444e8d7d5692905df097c0e | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-4) |
-| 5         |             | 0x6560fc67eaca384f1d936f7233a8efcbf8cda04f | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-5) |
+| AVS Index | Reported By   | Deployment Address                         | Tx Counts | Exploitation Code                                            |
+| --------- | ------------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
+| 1         | Slither, MAVS | 0x380e0f015c0a830dc5d25e5f99570ad0be275350 | 8         | [Here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-1) |
+| 2         | Slither, MAVS | 0x19c630bb6d3e7c2cfe77e2a73627c9bee2db8ac5 | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-2) |
+| 3         | Slither, MAVS | 0x4ed184d6a9e449ecb984cb1fea7ed40db59439fd | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-3) |
+| 4         | Slither, MAVS | 0xd1b5cb3a6ea812c8c444e8d7d5692905df097c0e | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-4) |
+| 5         | Slither, MAVS | 0x6560fc67eaca384f1d936f7233a8efcbf8cda04f | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-5) |
