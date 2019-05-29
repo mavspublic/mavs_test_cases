@@ -26,22 +26,22 @@
 
 ## Abuse of Tx-origin AVS
 
-| AVS Index | Reported By | Deployment Address                         | Tx Counts | Exploitation Code                                            |
-| --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
-| 1         |             | 0x4f6d6fdaf267894fbeb57c1f4eb2fa2axxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
-| 2         |             | 0xeb547ed1D8A3Ff1461aBAa7F0022FED4xxxxxxxx | 1244      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2) |
-| 3         |             | 0x4ed184d6a9e449ecb984cb1fea7ed40dxxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3) |
-| 4         |             | 0x9ef74f01c70c80f008b51ae434e56ee7xxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
-| 5         |             | 0x6560fc67eaca384f1d936f7233a8efcbxxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5) |
+| AVS Index | Reported By               | Deployment Address                         | Tx Counts | Exploitation Code                                            |
+| --------- | ------------------------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
+| 1         | Slither, Smartcheck, MAVS | 0x4f6d6fdaf267894fbeb57c1f4eb2fa2axxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
+| 2         | Slither, Smartcheck, MAVS | 0xeb547ed1D8A3Ff1461aBAa7F0022FED4xxxxxxxx | 1244      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2) |
+| 3         | Slither, Smartcheck, MAVS | 0x2bb4bacbb7cc6186454253dab673e220xxxxxxxx | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3) |
+| 4         | -                         | 0x6560fc67eaca384f1d936f7233a8efcbxxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
+| 5         | Slither, Smartcheck, MAVS | 0x7910c579172c2d094d9813993e8b5704xxxxxxxx | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5) |
 
 ## Unchecked Low-level-call AVS
 
-| AVS Index | Reported By | Deployment Address                         | TX Counts | Exploitation Code                                            |
-| --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
-| 1         |             | 0xbebbfe5b549f5db6e6c78ca97cac19d1xxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-1) |
-| 2         |             | 0x173ee6e41bf96c0a1c58bc4c31699916xxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-2) |
-| 3         |             | 0xcc3a2773941eb0c79b66f86163a8afbexxxxxxxx | 413       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-3) |
-| 4         |             | 0xaa855d6ecf41dd5cf29dad369fb94002xxxxxxxx | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-4) |
+| AVS Index | Reported By      | Deployment Address                         | TX Counts | Exploitation Code                                            |
+| --------- | ---------------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
+| 1         | Smartcheck, MAVS | 0xbebbfe5b549f5db6e6c78ca97cac19d1xxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-1) |
+| 2         | Smartcheck, MAVS | 0x173ee6e41bf96c0a1c58bc4c31699916xxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-2) |
+| 3         | Smartcheck, MAVS | 0xcc3a2773941eb0c79b66f86163a8afbexxxxxxxx | 413       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-3) |
+| 4         | -                | 0xaa855d6ecf41dd5cf29dad369fb94002xxxxxxxx | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unchecked%20Low-level-call/UncheckedLLC-AVS-4) |
 
 ## Time Manipulation AVS
 
@@ -54,16 +54,16 @@
 
 ## Unexpected Revert AVS
 
-| AVS Index | Reported By | Deployment Address                         | Tx Counts | Exploitation Code                                            |
-| --------- | ----------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
-| 1         |             | 0x6dbedc242428353601429f29da7bd6ebxxxxxxxx | 555       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-1) |
-| 2         |             | 0x46d7f2fc523728670e1eb7184a7c8a4axxxxxxxx | 6         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2) |
-| 3         |             | 0x8ac132345132d3c36b55b375f04d2202xxxxxxxx | 37        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-3) |
-| 4         |             | 0xa46d6689bb3f055cb8e8228498760f5axxxxxxxx | 9         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-4) |
-| 5         |             | 0x877fc4cf32fe40cd658dc186fa24dc74xxxxxxxx | 140       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-5) |
-| 6         |             | 0x1e6f116ca704277c97595316ac157eb6xxxxxxxx | 50        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-6) |
-| 7         |             | 0xa485a4bbbd026cf0c49844ef617bd4a9xxxxxxxx | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-7) |
-| 8         |             | 0x19b115365671a818ed62aa326d91e6e4xxxxxxxx | 27        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-8) |
+| AVS Index | Reported By               | Deployment Address                         | Tx Counts | Exploitation Code                                            |
+| --------- | ------------------------- | ------------------------------------------ | --------- | ------------------------------------------------------------ |
+| 1         | -                         | 0x6dbedc242428353601429f29da7bd6ebxxxxxxxx | 555       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-1) |
+| 2         | -                         | 0x46d7f2fc523728670e1eb7184a7c8a4axxxxxxxx | 6         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-2) |
+| 3         | -                         | 0x8ac132345132d3c36b55b375f04d2202xxxxxxxx | 37        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-3) |
+| 4         | Slither, Smartcheck, MAVS | 0xa46d6689bb3f055cb8e8228498760f5axxxxxxxx | 9         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-4) |
+| 5         | Slither, Smartcheck, MAVS | 0x877fc4cf32fe40cd658dc186fa24dc74xxxxxxxx | 140       | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-5) |
+| 6         | Slither, Smartcheck, MAVS | 0x1e6f116ca704277c97595316ac157eb6xxxxxxxx | 50        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-6) |
+| 7         | Slither, Smartcheck, MAVS | 0xa485a4bbbd026cf0c49844ef617bd4a9xxxxxxxx | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-7) |
+| 8         | Slither, Smartcheck, MAVS | 0x19b115365671a818ed62aa326d91e6e4xxxxxxxx | 27        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Unexpected%20Revert/UnexpectedRevert-AVS-8) |
 
 ## Self-destruct Abusing AVS
 
