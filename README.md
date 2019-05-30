@@ -21,8 +21,8 @@
 | 15        | Slither, Oyente, MAVS | 0x2628e13a3cbdc52ed96b4b8d6b1041d3xxxxxxxx | 24        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-15) |
 | 18        | Slither, MAVS         | 0x73e399056058166662a81b94b246244bxxxxxxxx | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-18) |
 | 20        | MAVS                  | 0x9e8252b6db9a604c2e89b01b1573b4fcxxxxxxxx | 10        | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-20) |
-| 21        | MAVS                  | 0x8678b5fb41d87f4bec43b3142bce8523xxxxxxxx | 3109      |                                                              |
-| 22        | MAVS                  | 0xa483d6f4eea5b29eedb7d9709e0fd748xxxxxxxx | 1         |                                                              |
+| 21        | MAVS                  | 0x8678b5fb41d87f4bec43b3142bce8523xxxxxxxx | 3109      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-21) |
+| 22        | MAVS                  | 0xa483d6f4eea5b29eedb7d9709e0fd748xxxxxxxx | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Reentrancy/Reentrancy-AVS-22) |
 
 ## Abuse of Tx-origin AVS
 
@@ -31,7 +31,7 @@
 | 1         | Slither, Smartcheck, MAVS | 0x4f6d6fdaf267894fbeb57c1f4eb2fa2axxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
 | 2         | Slither, Smartcheck, MAVS | 0xeb547ed1D8A3Ff1461aBAa7F0022FED4xxxxxxxx | 1244      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2) |
 | 3         | Slither, Smartcheck, MAVS | 0x2bb4bacbb7cc6186454253dab673e220xxxxxxxx | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3) |
-| 4         | -                         | 0x6560fc67eaca384f1d936f7233a8efcbxxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
+| 4         | Slither, Smartcheck, MAVS | 0x6560fc67eaca384f1d936f7233a8efcbxxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
 | 5         | Slither, Smartcheck, MAVS | 0x7910c579172c2d094d9813993e8b5704xxxxxxxx | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5) |
 
 ## Unchecked Low-level-call AVS
