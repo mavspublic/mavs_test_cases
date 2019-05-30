@@ -31,7 +31,7 @@
 | 1         | Slither, Smartcheck, MAVS | 0x4f6d6fdaf267894fbeb57c1f4eb2fa2axxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-1) |
 | 2         | Slither, Smartcheck, MAVS | 0xeb547ed1D8A3Ff1461aBAa7F0022FED4xxxxxxxx | 1244      | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-2) |
 | 3         | Slither, Smartcheck, MAVS | 0x2bb4bacbb7cc6186454253dab673e220xxxxxxxx | 4         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-3) |
-| 4         | Slither, Smartcheck, MAVS | 0x62edb11263cd775d549a9d9e38980014xxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
+| 4         | Slither, Smartcheck, MAVS | 0x62edb11263cd775d549a9d9e38980014xxxxxxxx | 169         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-4) |
 | 5         | Slither, Smartcheck, MAVS | 0x7910c579172c2d094d9813993e8b5704xxxxxxxx | 1         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Abuse%20of%20Tx-origin/Tx-AVS-5) |
 
 ## Unchecked Low-level-call AVS
