@@ -75,3 +75,6 @@
 | 4         | Slither, MAVS | 0xd1b5cb3a6ea812c8c444e8d7d5692905xxxxxxxx | 2         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-4) |
 | 5         | Slither, MAVS | 0x6560fc67eaca384f1d936f7233a8efcbxxxxxxxx | 3         | [here](https://github.com/mavspublic/Exploit_Code/tree/master/Self-destruct%20Abusing/SelfDestruct-AVS-5) |
 
+**To illustrate the effectiveness of our work on Ethereum community security, we collect the transaction count (namely Tx Count) of vulnerable smart contracts that have been deployed in Ethereum. There are contracts been interacted frequently, contracts been seldom used and contracts never been activated. Among these contracts, our MAVS has found out most of them, as shown in the following figure.**
+
+![TxCountPies](combine.jpg)
